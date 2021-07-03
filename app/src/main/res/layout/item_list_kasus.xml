@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tgl_harian_kasus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="2021-5-6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ttl_sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/tgl_harian_kasus"
+        android:fontFamily="@font/almendra"
+        android:text="Sembuh"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jml_sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/ttl_sembuh"
+        android:fontFamily="@font/almendra"
+        android:text="123"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ttl_meninggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tgl_harian_kasus"
+        android:fontFamily="@font/almendra"
+
+        android:text="Meninggal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jml_mati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/ttl_sembuh"
+        android:fontFamily="@font/almendra"
+        android:text="123"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_kasus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/jml_mati"
+        android:fontFamily="@font/almendra"
+        android:text="Kasus"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ttl_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/tgl_harian_kasus"
+        android:fontFamily="@font/almendra"
+        android:text="Terkonfirmasi"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jml_terkonfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/ttl_sembuh"
+        android:fontFamily="@font/almendra"
+        android:text="123"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/jml_mati"
+        android:fontFamily="@font/almendra"
+        android:text="Kasus"
+        android:textSize="16sp" />
+
+</RelativeLayout>
