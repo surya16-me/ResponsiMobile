@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="10dp"
-    android:orientation="vertical">
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
 
-    <TextView
-        android:id="@+id/nama_RS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="@font/almendra"
-        android:text="Rumah Sakit Kita"
-        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="@font/almendra"
-        android:text="Alamat : "
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/nama_RS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/almendra"
+            android:text="Rumah Sakit Kita"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/alamat_lengkap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="@font/almendra"
-        android:text="Detail Alamat"
-        android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/almendra"
+            android:text="Alamat : "
+            android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/btn_map"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/almendra"
-        android:text="Map"
-        android:layout_weight="1"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/alamat_lengkap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/almendra"
+            android:text="Detail Alamat"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almendra"
+            android:text="Map"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
 
 
-</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
